@@ -1,0 +1,10 @@
+category_code,category_name,category_group,source_system
+CAT-AEROSPACE-DEFENSE,Aerospace & Defense,"Aerospace, defense, weapons systems, aircraft, missiles, and military platforms",Derived from USAspending text fields
+CAT-CONSTRUCTION-FACILITIES,Construction & Facilities,"Construction, renovation, maintenance, and facility services",Derived from USAspending text fields
+CAT-PROFESSIONAL-SERVICES,Professional Services,"Consulting, program management, technical assistance, and advisory services",Derived from USAspending text fields
+CAT-ENERGY-UTILITIES,Energy & Utilities,"Energy, electricity, fuel, utilities, and environmental services",Derived from USAspending text fields
+CAT-BPA-CALL-GENERAL,BPA Call - General,General blanket purchase agreement calls,Derived from USAspending text fields
+CAT-DEFINITIVE-CONTRACT-GENERAL,Definitive Contract - General,General definitive contracts without specific category detail,Derived from USAspending text fields
+CAT-HEALTHCARE-MEDICAL,Healthcare & Medical,"Medical supplies, healthcare services, pharmaceuticals, and clinical support",Derived from USAspending text fields
+CAT-IT,Information Technology,"Software, cloud, cybersecurity, telecommunications, and IT services",Derived from USAspending text fields
+CAT-LOGISTICS-TRANSPORTATION,Logistics & Transportation,"Transportation, freight, logistics, warehousing, and distribution",Derived from USAspending text fields
