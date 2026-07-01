@@ -54,6 +54,19 @@ Any delivery performance, invoice status, compliance document status, or supplie
 - vw_supplier_compliance_status
 - vw_supplier_risk_score
 
+## Entity Relationship Diagram
+
+The database model includes supplier master data, buyers, categories, purchase orders, purchase order lines, deliveries, invoices, and compliance documents.
+
+![Procurement Supplier ERD](erd/procurement_supplier_erd.png)
+
+## Result Outputs
+
+The project includes saved query outputs for review:
+
+- [KPI Query Results](docs/results/kpi_query_results.txt)
+- [Database Load Validation](docs/results/database_load_validation.txt)
+
 ## KPI Queries
 
 The project includes final KPI queries for:

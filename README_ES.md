@@ -71,6 +71,19 @@ Los datos de entregas, facturas, compliance y riesgo de proveedores son sintéti
 - vw_supplier_compliance_status
 - vw_supplier_risk_score
 
+## Diagrama Entidad-Relación
+
+El modelo de base de datos incluye proveedores, compradores, categorías, órdenes de compra, líneas de órdenes de compra, entregas, facturas y documentos de compliance.
+
+![Procurement Supplier ERD](erd/procurement_supplier_erd.png)
+
+## Resultados Guardados
+
+El proyecto incluye salidas guardadas de las consultas principales:
+
+- [Resultados de KPIs](docs/results/kpi_query_results.txt)
+- [Validación de Carga de Base de Datos](docs/results/database_load_validation.txt)
+
 ## Consultas KPI
 
 El proyecto incluye consultas para:
