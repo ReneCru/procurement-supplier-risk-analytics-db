@@ -1,0 +1,161 @@
+digraph ProcurementSupplierERD {
+    graph [
+        rankdir=LR,
+        fontsize=10,
+        labelloc="t",
+        label="Procurement & Supplier Risk Analytics Database - ERD"
+    ];
+
+    node [
+        shape=record,
+        fontsize=10
+    ];
+
+    edge [
+        fontsize=9
+    ];
+
+    suppliers [
+        label="{suppliers|
+        PK supplier_id\l
+        supplier_name\l
+        supplier_country\l
+        supplier_state\l
+        supplier_city\l
+        supplier_type\l
+        is_active\l
+        source_system\l
+        source_supplier_id\l
+        created_at\l
+        }"
+    ];
+
+    buyers [
+        label="{buyers|
+        PK buyer_id\l
+        buyer_name\l
+        buyer_department\l
+        buyer_region\l
+        source_system\l
+        source_buyer_id\l
+        created_at\l
+        }"
+    ];
+
+    categories [
+        label="{categories|
+        PK category_id\l
+        category_code\l
+        category_name\l
+        category_group\l
+        source_system\l
+        created_at\l
+        }"
+    ];
+
+    purchase_orders [
+        label="{purchase_orders|
+        PK po_id\l
+        po_number\l
+        FK supplier_id\l
+        FK buyer_id\l
+        FK category_id\l
+        po_date\l
+        required_delivery_date\l
+        po_status\l
+        currency_code\l
+        total_amount\l
+        source_award_id\l
+        source_system\l
+        created_at\l
+        }"
+    ];
+
+    purchase_order_lines [
+        label="{purchase_order_lines|
+        PK po_line_id\l
+        FK po_id\l
+        line_number\l
+        item_description\l
+        FK category_id\l
+        quantity\l
+        unit_price\l
+        line_amount\l
+        created_at\l
+        }"
+    ];
+
+    deliveries [
+        label="{deliveries|
+        PK delivery_id\l
+        FK po_line_id\l
+        scheduled_delivery_date\l
+        actual_delivery_date\l
+        delivery_status\l
+        delivered_quantity\l
+        delay_days\l
+        created_at\l
+        }"
+    ];
+
+    invoices [
+        label="{invoices|
+        PK invoice_id\l
+        invoice_number\l
+        FK po_id\l
+        invoice_date\l
+        due_date\l
+        payment_date\l
+        invoice_status\l
+        invoice_amount\l
+        currency_code\l
+        created_at\l
+        }"
+    ];
+
+    compliance_documents [
+        label="{compliance_documents|
+        PK document_id\l
+        FK supplier_id\l
+        document_type\l
+        document_status\l
+        issue_date\l
+        expiration_date\l
+        reviewed_date\l
+        reviewed_by\l
+        created_at\l
+        }"
+    ];
+
+    suppliers -> purchase_orders [
+        label="1 to many"
+    ];
+
+    buyers -> purchase_orders [
+        label="1 to many"
+    ];
+
+    categories -> purchase_orders [
+        label="1 to many"
+    ];
+
+    categories -> purchase_order_lines [
+        label="1 to many"
+    ];
+
+    purchase_orders -> purchase_order_lines [
+        label="1 to many"
+    ];
+
+    purchase_order_lines -> deliveries [
+        label="1 to many"
+    ];
+
+    purchase_orders -> invoices [
+        label="1 to many"
+    ];
+
+    suppliers -> compliance_documents [
+        label="1 to many"
+    ];
+}
