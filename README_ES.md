@@ -84,6 +84,14 @@ El proyecto incluye salidas guardadas de las consultas principales:
 - [Resultados de KPIs](docs/results/kpi_query_results.txt)
 - [Validación de Carga de Base de Datos](docs/results/database_load_validation.txt)
 
+## Reporte Analítico en Excel
+
+El proyecto también incluye un reporte analítico en Excel generado a partir de los CSVs preparados para dashboard.
+
+- [Reporte Excel de Procurement Supplier Analytics](reports/procurement_supplier_analytics_report.xlsx)
+
+El archivo Excel incluye pestañas para supplier risk, supplier spend, spend by category, monthly trends, late delivery performance, open PO aging y compliance status.
+
 ## Consultas KPI
 
 El proyecto incluye consultas para:

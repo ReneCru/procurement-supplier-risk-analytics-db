@@ -67,6 +67,14 @@ The project includes saved query outputs for review:
 - [KPI Query Results](docs/results/kpi_query_results.txt)
 - [Database Load Validation](docs/results/database_load_validation.txt)
 
+## Excel Analytics Report
+
+The project also includes an Excel analytics report generated from dashboard-ready CSV exports.
+
+- [Procurement Supplier Analytics Excel Report](reports/procurement_supplier_analytics_report.xlsx)
+
+The Excel file includes multiple sheets for supplier risk, supplier spend, spend by category, monthly trends, late delivery performance, open PO aging, and compliance status.
+
 ## KPI Queries
 
 The project includes final KPI queries for:
