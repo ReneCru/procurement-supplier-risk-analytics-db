@@ -357,11 +357,11 @@ def generate_compliance_documents(suppliers: pd.DataFrame) -> pd.DataFrame:
                 expiration_date = ""
                 reviewed_date = ""
             else:
-                issue_date_value = REFERENCE_DATE - timedelta(days=rng.randint(60, 900))
-
                 if document_status == "expired":
                     expiration_date_value = REFERENCE_DATE - timedelta(days=rng.randint(1, 365))
+                    issue_date_value = expiration_date_value - timedelta(days=rng.randint(180, 900))
                 else:
+                    issue_date_value = REFERENCE_DATE - timedelta(days=rng.randint(60, 900))
                     expiration_date_value = REFERENCE_DATE + timedelta(days=rng.randint(30, 730))
 
                 reviewed_date_value = REFERENCE_DATE - timedelta(days=rng.randint(0, 180))
