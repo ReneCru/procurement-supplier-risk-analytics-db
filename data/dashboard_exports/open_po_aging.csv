@@ -1,0 +1,194 @@
+po_id,po_number,supplier_name,buyer_name,buyer_department,category_name,po_date,required_delivery_date,po_status,total_amount,analysis_reference_date,po_age_days,aging_bucket
+1,HT940216C0001,HUMANA GOVERNMENT BUSINESS INC,Department of Defense,Defense Health Agency,Aerospace & Defense,2026-11-10,2027-04-12,open,51269205263.03,2026-07-01,-132,Future-dated
+3,DENA0003525,"NATIONAL TECHNOLOGY & ENGINEERING SOLUTIONS OF SANDIA, LLC",Department of Energy,Department of Energy,Professional Services,2026-12-16,2027-01-31,open,42370311400.75,2026-07-01,-168,Future-dated
+6,DEAC3243AL00036,"REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE",Department of Energy,Department of Energy,Energy & Utilities,2026-11-13,2027-03-30,open,35295925219.18,2026-07-01,-135,Future-dated
+7,N0001917C0001,LOCKHEED MARTIN CORPORATION,Department of Defense,Department of the Navy,Aerospace & Defense,2026-07-19,2026-10-30,open,35135514910.20,2026-07-01,-18,Future-dated
+9,N0002417C2100,ELECTRIC BOAT CORPORATION,Department of Defense,Department of the Navy,Aerospace & Defense,2026-12-06,2027-02-21,open,34664220619.00,2026-07-01,-158,Future-dated
+11,FA862511C6600,THE BOEING COMPANY,Department of Defense,Department of the Air Force,Aerospace & Defense,2026-05-13,2026-09-07,open,31960918249.03,2026-07-01,49,31-60 days
+12,N0002417C2117,ELECTRIC BOAT CORPORATION,Department of Defense,Department of the Navy,Aerospace & Defense,2026-05-10,2026-09-16,open,30979375853.00,2026-07-01,52,31-60 days
+13,DEAC0576RL01830,BATTELLE MEMORIAL INSTITUTE,Department of Energy,Department of Energy,Energy & Utilities,2026-03-07,2026-07-20,open,30520604861.61,2026-07-01,116,91-180 days
+16,DEAC0908SR22470,SAVANNAH RIVER NUCLEAR SOLUTIONS LLC,Department of Energy,Department of Energy,Energy & Utilities,2026-05-21,2026-08-15,open,27139821087.23,2026-07-01,41,31-60 days
+19,HT940216C0002,"HEALTH NET FEDERAL SERVICES, LLC",Department of Defense,Defense Health Agency,Aerospace & Defense,2026-11-19,2027-01-04,open,23493318778.12,2026-07-01,-141,Future-dated
+20,NAS1510000,THE BOEING COMPANY,National Aeronautics and Space Administration,National Aeronautics and Space Administration,Aerospace & Defense,2026-11-15,2027-02-22,open,22437793940.54,2026-07-01,-137,Future-dated
+21,DEAC0584OR21400,"LOCKHEED MARTIN SERVICES, LLC",Department of Energy,Department of Energy,Energy & Utilities,2026-05-27,2026-08-17,open,20646113720.09,2026-07-01,35,31-60 days
+24,DEAC0205CH11231,THE REGENTS OF THE UNIVERSITY OF CALIFORNIA,Department of Energy,Department of Energy,Energy & Utilities,2026-08-19,2026-10-28,open,19743215928.42,2026-07-01,-49,Future-dated
+25,HT940210C0002,"HEALTH NET FEDERAL SERVICES, LLC",Department of Defense,Defense Health Agency,Aerospace & Defense,2026-07-29,2026-12-21,open,19414789943.30,2026-07-01,-28,Future-dated
+27,DEAC0343SF00048,THE REGENTS OF THE UNIVERSITY OF CALIFORNIA,Department of Energy,Department of Energy,Energy & Utilities,2026-12-13,2027-05-25,open,18009881071.27,2026-07-01,-165,Future-dated
+29,DEAC0206CH11357,"UCHICAGO ARGONNE, LLC",Department of Energy,Department of Energy,Energy & Utilities,2026-07-26,2026-09-17,open,17318912548.91,2026-07-01,-25,Future-dated
+31,N0002409C2104,ELECTRIC BOAT CORPORATION,Department of Defense,Department of the Navy,Aerospace & Defense,2026-04-21,2026-08-26,open,16238775949.00,2026-07-01,71,61-90 days
+32,NNJ06TA25C,LOCKHEED MARTIN CORP,National Aeronautics and Space Administration,National Aeronautics and Space Administration,Aerospace & Defense,2026-08-19,2026-12-17,open,15555973334.93,2026-07-01,-49,Future-dated
+38,N0002416C2116,HUNTINGTON INGALLS INC,Department of Defense,Department of the Navy,Aerospace & Defense,2026-09-09,2026-12-12,open,12569612524.86,2026-07-01,-70,Future-dated
+40,N0001916C0033,LOCKHEED MARTIN CORPORATION,Department of Defense,Defense Contract Management Agency,Aerospace & Defense,2026-09-15,2027-01-22,open,12269145508.23,2026-07-01,-76,Future-dated
+41,W15QKN21C0012,PFIZER INC,Department of Defense,Department of the Army,Aerospace & Defense,2026-12-05,2027-02-10,open,11110134065.68,2026-07-01,-157,Future-dated
+46,DEAC2708RV14800,WASHINGTON RIVER PROTECTION SOLUTIONS LLC,Department of Energy,Department of Energy,Energy & Utilities,2026-07-01,2026-10-06,open,10572204771.54,2026-07-01,0,0-30 days
+48,NNM07AB03C,THE BOEING COMPANY,National Aeronautics and Space Administration,National Aeronautics and Space Administration,Aerospace & Defense,2026-06-21,2026-07-26,open,10513304426.00,2026-07-01,10,0-30 days
+50,F4261098C0001,NORTHROP GRUMMAN SYSTEMS CORPORATION,Department of Defense,Department of the Air Force,Aerospace & Defense,2026-04-22,2026-07-27,open,10009419769.13,2026-07-01,70,61-90 days
+51,W31P4Q24C0022,LOCKHEED MARTIN CORPORATION,Department of Defense,Department of the Army,Aerospace & Defense,2026-08-14,2027-01-28,open,9852834751.99,2026-07-01,-44,Future-dated
+54,HQ014717C0032,LOCKHEED MARTIN CORPORATION,Department of Defense,Missile Defense Agency,Aerospace & Defense,2026-08-15,2026-10-09,open,9080516982.62,2026-07-01,-45,Future-dated
+57,FA861108C2897,LOCKHEED MARTIN CORPORATION,Department of Defense,Defense Contract Management Agency,Aerospace & Defense,2026-10-24,2026-12-05,open,8821412144.17,2026-07-01,-115,Future-dated
+59,DESC0012704,BROOKHAVEN SCIENCE ASSOCIATES LLC,Department of Energy,Department of Energy,Energy & Utilities,2026-07-23,2026-10-23,open,8561512218.42,2026-07-01,-22,Future-dated
+60,N0001918C1037,NORTHROP GRUMMAN SYSTEMS CORPORATION,Department of Defense,Department of the Navy,Aerospace & Defense,2026-05-09,2026-08-28,open,8478019987.67,2026-07-01,53,31-60 days
+64,DEAC0207CH11359,"FERMI RESEARCH ALLIANCE, LLC",Department of Energy,Department of Energy,Professional Services,2026-06-13,2026-09-11,open,8292579520.86,2026-07-01,18,0-30 days
+65,N0001921C0020,LOCKHEED MARTIN CORPORATION,Department of Defense,Defense Contract Management Agency,Aerospace & Defense,2026-12-29,2027-03-08,open,7953264130.50,2026-07-01,-181,Future-dated
+67,N0001904C3146,THE BOEING COMPANY,Department of Defense,Department of the Navy,Aerospace & Defense,2026-06-13,2026-08-31,open,7633729888.76,2026-07-01,18,0-30 days
+68,DENA0003624,MISSION SUPPORT & TEST SERVICES LLC,Department of Energy,Department of Energy,Energy & Utilities,2026-09-25,2027-01-08,open,7621715102.82,2026-07-01,-86,Future-dated
+73,0004,"AMENTUM SERVICES, INC.",Department of Defense,Department of the Army,Aerospace & Defense,2026-11-14,2027-03-27,open,7376022275.01,2026-07-01,-136,Future-dated
+75,FA862506C6456,LOCKHEED MARTIN CORP,Department of Defense,Defense Contract Management Agency,Aerospace & Defense,2026-10-31,2027-01-18,open,7261932653.67,2026-07-01,-122,Future-dated
+77,N0001911C0083,LOCKHEED MARTIN CORPORATION,Department of Defense,Defense Contract Management Agency,Aerospace & Defense,2026-12-21,2027-04-19,open,7186135705.16,2026-07-01,-173,Future-dated
+84,N0002408C2110,HUNTINGTON INGALLS INC,Department of Defense,Department of the Navy,Aerospace & Defense,2026-06-29,2026-09-16,open,6645710960.11,2026-07-01,2,0-30 days
+86,N0001917C0015,BELL BOEING JOINT PROJECT OFFICE,Department of Defense,Defense Contract Management Agency,Aerospace & Defense,2026-05-11,2026-09-24,open,6597245392.74,2026-07-01,51,31-60 days
+91,N0001913C0008,LOCKHEED MARTIN CORPORATION,Department of Defense,Department of the Navy,Aerospace & Defense,2026-11-11,2027-04-08,open,6035358369.47,2026-07-01,-133,Future-dated
+100,N0001918C1046,THE BOEING COMPANY,Department of Defense,Department of the Navy,Aerospace & Defense,2026-10-04,2026-12-25,open,5496533530.53,2026-07-01,-95,Future-dated
+102,N0002418C2305,BATH IRON WORKS CORPORATION,Department of Defense,Department of the Navy,Aerospace & Defense,2026-12-17,2027-01-27,open,5338956970.86,2026-07-01,-169,Future-dated
+103,FA861520F0001,LOCKHEED MARTIN CORPORATION,Department of Defense,Department of the Air Force,Aerospace & Defense,2026-09-12,2026-12-15,open,5212953429.32,2026-07-01,-73,Future-dated
+107,W52P1J09C0013,"BECHTEL PARSONS BLUE GRASS, A JOINT VENTURE",Department of Defense,Department of the Army,Aerospace & Defense,2026-03-12,2026-07-12,open,5030576178.60,2026-07-01,111,91-180 days
+108,N0002411C2300,LOCKHEED MARTIN CORPORATION,Department of Defense,Department of the Navy,Aerospace & Defense,2026-05-28,2026-08-14,open,4980508595.15,2026-07-01,34,31-60 days
+110,N0002413C2305,BATH IRON WORKS CORPORATION,Department of Defense,Department of the Navy,Aerospace & Defense,2026-05-24,2026-09-01,open,4943797753.56,2026-07-01,38,31-60 days
+113,W58RGZ13C0002,THE BOEING COMPANY,Department of Defense,Department of the Army,Aerospace & Defense,2026-11-26,2027-03-08,open,4864238445.89,2026-07-01,-148,Future-dated
+115,N0002418C2406,HUNTINGTON INGALLS INCORPORATED,Department of Defense,Department of the Navy,Aerospace & Defense,2026-09-27,2027-01-04,open,4722995757.00,2026-07-01,-88,Future-dated
+116,W58RGZ22C0010,SIKORSKY AIRCRAFT CORPORATION,Department of Defense,Department of the Army,Aerospace & Defense,2026-04-04,2026-08-11,open,4695788015.84,2026-07-01,88,61-90 days
+117,NAS1510110,RUSSIA SPACE AGENCY,National Aeronautics and Space Administration,National Aeronautics and Space Administration,Aerospace & Defense,2026-11-11,2027-02-27,open,4682328998.90,2026-07-01,-133,Future-dated
+118,0089,"KBR SERVICES, LLC",Department of Defense,Department of the Army,Aerospace & Defense,2026-10-20,2027-04-10,open,4609561500.42,2026-07-01,-111,Future-dated
+124,N0002415C2114,HUNTINGTON INGALLS INC,Department of Defense,Department of the Navy,Aerospace & Defense,2026-06-14,2026-08-25,open,4500863792.12,2026-07-01,17,0-30 days
+129,HQ014719C0004,THE BOEING COMPANY,Department of Defense,Missile Defense Agency,Aerospace & Defense,2026-07-15,2026-09-23,open,4442838457.30,2026-07-01,-14,Future-dated
+131,FA862511C6597,LOCKHEED MARTIN CORP,Department of Defense,Defense Contract Management Agency,Aerospace & Defense,2026-06-27,2026-08-06,open,4410630126.34,2026-07-01,4,0-30 days
+132,N0001919C0010,LOCKHEED MARTIN CORPORATION,Department of Defense,Department of the Navy,Aerospace & Defense,2026-08-21,2026-10-18,open,4329669752.97,2026-07-01,-51,Future-dated
+133,N0002420C2120,ELECTRIC BOAT CORPORATION,Department of Defense,Department of the Navy,Aerospace & Defense,2026-03-16,2026-08-06,open,4315002657.50,2026-07-01,107,91-180 days
+135,HT940213C0009,THE JOHNS HOPKINS MEDICAL SERVICES CORPORATION,Department of Defense,Defense Health Agency,Aerospace & Defense,2026-03-20,2026-07-09,open,4179844458.04,2026-07-01,103,91-180 days
+138,FA862516C6599,THE BOEING COMPANY,Department of Defense,Defense Contract Management Agency,Aerospace & Defense,2026-01-20,2026-07-18,open,4018013174.81,2026-07-01,162,91-180 days
+140,FA863423F0048,THE BOEING COMPANY,Department of Defense,Department of the Air Force,Aerospace & Defense,2026-12-08,2027-02-26,open,3933015048.30,2026-07-01,-160,Future-dated
+141,DESC0004645,UCOR LLC,Department of Energy,Department of Energy,Energy & Utilities,2026-11-09,2027-01-15,open,3900788934.07,2026-07-01,-131,Future-dated
+143,FA862518F7027,LOCKHEED MARTIN CORP,Department of Defense,Department of the Air Force,Aerospace & Defense,2026-05-31,2026-08-20,open,3809704361.36,2026-07-01,31,31-60 days
+148,FA861108C2896,RTX CORPORATION,Department of Defense,Department of the Air Force,Aerospace & Defense,2026-10-20,2026-11-28,open,3648685783.01,2026-07-01,-111,Future-dated
+149,W58RGZ23C0001,BELL TEXTRON INC,Department of Defense,Department of the Army,Aerospace & Defense,2026-09-24,2027-01-19,open,3631467985.93,2026-07-01,-85,Future-dated
+152,FA881606C0002,"UNITED LAUNCH SERVICES, LLC",Department of Defense,Defense Contract Management Agency,Aerospace & Defense,2026-04-19,2026-08-22,open,3583485319.19,2026-07-01,73,61-90 days
+153,DEAC0609RL14728,"MISSION SUPPORT ALLIANCE, LLC",Department of Energy,Department of Energy,Energy & Utilities,2026-06-18,2026-09-07,open,3557405197.21,2026-07-01,13,0-30 days
+154,89233224CNA000004,"PANTEXAS DETERRENCE, LLC",Department of Energy,Department of Energy,Energy & Utilities,2026-12-14,2027-03-14,open,3537634605.97,2026-07-01,-166,Future-dated
+158,FA881018C0006,NORTHROP GRUMMAN SYSTEMS CORPORATION,Department of Defense,Department of the Air Force,Aerospace & Defense,2026-06-04,2026-08-11,open,3443980501.13,2026-07-01,27,0-30 days
+159,N0001922C0004,SIKORSKY AIRCRAFT CORPORATION,Department of Defense,Department of the Navy,Aerospace & Defense,2026-10-20,2027-04-04,open,3423079306.96,2026-07-01,-111,Future-dated
+161,N0002419C2114,"BECHTEL PLANT MACHINERY, INC.",Department of Defense,Department of the Navy,Aerospace & Defense,2026-01-31,2026-07-07,open,3376284837.00,2026-07-01,151,91-180 days
+171,N0001914C0032,THE BOEING COMPANY,Department of Defense,Department of the Navy,Aerospace & Defense,2026-03-28,2026-07-31,open,3154449062.90,2026-07-01,95,91-180 days
+174,FA880810C0001,THE BOEING COMPANY,Department of Defense,Department of the Air Force,Aerospace & Defense,2026-09-16,2027-02-02,open,3127786036.39,2026-07-01,-77,Future-dated
+175,DEAC0506OR23177,"JEFFERSON SCIENCE ASSOCIATES, LLC",Department of Energy,Department of Energy,Energy & Utilities,2026-05-02,2026-07-27,open,3122899691.31,2026-07-01,60,31-60 days
+179,N6274223F4007,DRAGADOS/HAWAIIAN DREDGING/ORION JV,Department of Defense,Department of the Navy,Aerospace & Defense,2026-05-02,2026-07-06,open,3071962135.15,2026-07-01,60,31-60 days
+181,80MSFC20C0034,SPACE EXPLORATION TECHNOLOGIES CORP.,National Aeronautics and Space Administration,National Aeronautics and Space Administration,Aerospace & Defense,2026-06-17,2026-09-07,open,3044069154.73,2026-07-01,14,0-30 days
+188,N0002424C2115,"BECHTEL PLANT MACHINERY, INC.",Department of Defense,Department of the Navy,Aerospace & Defense,2026-09-07,2026-11-21,open,2975601797.00,2026-07-01,-68,Future-dated
+190,N0002420C2300,MARINETTE MARINE CORPORATION,Department of Defense,Department of the Navy,Aerospace & Defense,2026-04-18,2026-08-22,open,2957440821.00,2026-07-01,74,61-90 days
+192,FA861512C6016,LOCKHEED MARTIN CORPORATION,Department of Defense,Department of the Air Force,Aerospace & Defense,2026-08-19,2026-11-28,open,2881255653.08,2026-07-01,-49,Future-dated
+193,N0003024C0100,LOCKHEED MARTIN CORPORATION,Department of Defense,Department of the Navy,Aerospace & Defense,2026-08-03,2026-09-12,open,2876623988.00,2026-07-01,-33,Future-dated
+194,W56HZV17C0001,BAE SYSTEMS LAND & ARMAMENTS L.P.,Department of Defense,Department of the Army,Aerospace & Defense,2026-05-16,2026-08-01,open,2875232202.19,2026-07-01,46,31-60 days
+195,N0001907C0097,LOCKHEED MARTIN CORPORATION,Department of Defense,Defense Contract Management Agency,Aerospace & Defense,2026-09-17,2026-11-18,open,2870976998.80,2026-07-01,-78,Future-dated
+196,MSFC0199911DNAS800016,LOCKHEED MARTIN CORP,National Aeronautics and Space Administration,National Aeronautics and Space Administration,Aerospace & Defense,2026-09-30,2027-03-26,open,2870112487.23,2026-07-01,-91,Future-dated
+198,70B01C26F00000017,FISHER SAND & GRAVEL CO,Department of Homeland Security,U.S. Customs and Border Protection,Logistics & Transportation,2026-10-21,2027-01-04,open,2832999611.70,2026-07-01,-112,Future-dated
+201,FA850512C0001,THE BOEING COMPANY,Department of Defense,Department of the Air Force,Aerospace & Defense,2026-10-06,2027-01-30,open,2806532949.46,2026-07-01,-97,Future-dated
+203,W31P4Q24F0165,LOCKHEED MARTIN CORPORATION,Department of Defense,Department of the Army,Aerospace & Defense,2026-10-19,2026-12-05,open,2801151369.39,2026-07-01,-110,Future-dated
+207,HQ086220C0002,RAYTHEON COMPANY,Department of Defense,Missile Defense Agency,Aerospace & Defense,2026-12-11,2027-02-13,open,2738715982.65,2026-07-01,-163,Future-dated
+213,N0001916C0048,SIKORSKY AIRCRAFT CORPORATION,Department of Defense,Department of the Navy,Aerospace & Defense,2026-06-03,2026-09-19,open,2659159500.79,2026-07-01,28,0-30 days
+216,N0002411C2306,BATH IRON WORKS CORPORATION,Department of Defense,Department of the Navy,Aerospace & Defense,2026-05-19,2026-07-17,open,2551812435.00,2026-07-01,43,31-60 days
+217,N0002424C2114,"BECHTEL PLANT MACHINERY, INC.",Department of Defense,Department of the Navy,Aerospace & Defense,2026-05-15,2026-07-06,open,2542667076.00,2026-07-01,47,31-60 days
+222,W912EP24C0018,THALLE CONSTRUCTION CO INC,Department of Defense,Department of the Army,Aerospace & Defense,2026-10-07,2026-12-05,open,2510603694.68,2026-07-01,-98,Future-dated
+223,N0002424C2301,NATIONAL STEEL AND SHIPBUILDING COMPANY,Department of Defense,Department of the Navy,Aerospace & Defense,2026-12-05,2027-02-02,open,2502010119.00,2026-07-01,-157,Future-dated
+224,FA881013C0001,LOCKHEED MARTIN CORP,Department of Defense,Defense Contract Management Agency,Aerospace & Defense,2026-06-13,2026-10-25,open,2491233025.25,2026-07-01,18,0-30 days
+227,N0001917C0003,THE BOEING COMPANY,Department of Defense,Defense Contract Management Agency,Aerospace & Defense,2026-08-31,2026-10-26,open,2444992704.44,2026-07-01,-61,Future-dated
+234,W56HZV10C0077,CANADIAN COMMERCIAL CORPORATION,Department of Defense,Department of the Army,Aerospace & Defense,2026-05-31,2026-09-29,open,2344291363.92,2026-07-01,31,31-60 days
+236,DAAA0998E0006,BAE SYSTEMS ORDNANCE SYSTEMS INC.,Department of Defense,Department of the Army,Aerospace & Defense,2026-08-13,2026-10-05,open,2317804252.92,2026-07-01,-43,Future-dated
+238,19AQMM23F0766,XATOR LLC,Department of State,Department of State,Logistics & Transportation,2026-06-09,2026-09-25,open,2309491422.64,2026-07-01,22,0-30 days
+243,W31P4Q23C0005,LOCKHEED MARTIN CORPORATION,Department of Defense,Department of the Army,Aerospace & Defense,2026-12-17,2027-02-09,open,2213842633.09,2026-07-01,-169,Future-dated
+244,0007-1,"KBR SERVICES, LLC",Department of Defense,Department of the Army,Aerospace & Defense,2026-11-11,2027-02-26,open,2207263443.51,2026-07-01,-133,Future-dated
+250,HQ085120C0002,RAYTHEON COMPANY,Department of Defense,Defense Contract Management Agency,Aerospace & Defense,2026-09-18,2027-01-12,open,2147446227.49,2026-07-01,-79,Future-dated
+251,W31P4Q24C0024,RAYTHEON COMPANY,Department of Defense,Department of the Army,Aerospace & Defense,2026-08-04,2026-09-08,open,2141322930.00,2026-07-01,-34,Future-dated
+255,FA862616C2138,GENERAL ELECTRIC COMPANY,Department of Defense,Department of the Air Force,Aerospace & Defense,2026-05-28,2026-10-02,open,2090921087.07,2026-07-01,34,31-60 days
+256,HSCG2316CAFR625,"BOLLINGER SHIPYARDS LOCKPORT, L.L.C.",Department of Homeland Security,U.S. Coast Guard,Definitive Contract - General,2026-09-06,2026-10-12,open,2075724899.08,2026-07-01,-67,Future-dated
+258,W56HZV20C0050,OSHKOSH DEFENSE LLC,Department of Defense,Department of the Army,Aerospace & Defense,2026-08-13,2027-01-21,open,2066003284.43,2026-07-01,-43,Future-dated
+259,N0001920C0003,THE BOEING COMPANY,Department of Defense,Department of the Navy,Aerospace & Defense,2026-05-16,2026-08-29,open,2058655011.17,2026-07-01,46,31-60 days
+260,FA863422F0035,THE BOEING COMPANY,Department of Defense,Department of the Air Force,Aerospace & Defense,2026-07-17,2026-11-20,open,2039776433.36,2026-07-01,-16,Future-dated
+262,NNG09HR00C,LOCKHEED MARTIN CORP,National Aeronautics and Space Administration,National Aeronautics and Space Administration,Aerospace & Defense,2026-02-04,2026-08-01,open,2032336134.57,2026-07-01,147,91-180 days
+263,N0001996C0054,BELL HELICOPTER TEXTRON INC,Department of Defense,Defense Contract Management Agency,Aerospace & Defense,2026-05-20,2026-10-01,open,2032188650.77,2026-07-01,42,31-60 days
+264,N0002419C2210,"BOLLINGER MISSISSIPPI SHIPBUILDING, LLC",Department of Defense,Department of the Navy,Aerospace & Defense,2026-11-26,2027-03-15,open,2019738356.06,2026-07-01,-148,Future-dated
+265,DEAC2901AL66444,WASHINGTON TRU SOLUTIONS LLC,Department of Energy,Department of Energy,Energy & Utilities,2026-07-10,2026-09-24,open,2007900739.80,2026-07-01,-9,Future-dated
+267,DEFE0011020,"FLUOR FEDERAL PETROLEUM OPERATIONS, LLC",Department of Energy,Department of Energy,Energy & Utilities,2026-04-21,2026-10-06,open,1996329703.46,2026-07-01,71,61-90 days
+272,W911XK22C0006,"KOKOSING ALBERICI TRAYLOR, LLC",Department of Defense,Department of the Army,Aerospace & Defense,2026-05-28,2026-07-09,open,1936781003.61,2026-07-01,34,31-60 days
+274,N0001918C1041,LOCKHEED MARTIN CORPORATION,Department of Defense,Department of the Navy,Aerospace & Defense,2026-09-14,2027-01-19,open,1914366871.75,2026-07-01,-75,Future-dated
+276,N0002407C6119,RAYTHEON COMPANY,Department of Defense,Defense Contract Management Agency,Aerospace & Defense,2026-11-01,2027-01-31,open,1904305418.03,2026-07-01,-123,Future-dated
+279,HQ027615C0005,RAYTHEON COMPANY,Department of Defense,Defense Contract Management Agency,Aerospace & Defense,2026-08-15,2026-10-01,open,1861040363.03,2026-07-01,-45,Future-dated
+291,70B01C26F00000073,FISHER SAND & GRAVEL CO,Department of Homeland Security,U.S. Customs and Border Protection,Logistics & Transportation,2026-07-17,2026-10-09,open,1787500000.00,2026-07-01,-16,Future-dated
+293,75N91020F00003,LEIDOS BIOMEDICAL RESEARCH INC,Department of Health and Human Services,National Institutes of Health,Healthcare & Medical,2026-03-02,2026-07-07,open,1775380496.13,2026-07-01,121,91-180 days
+294,FA867515C0022,RAYTHEON COMPANY,Department of Defense,Defense Contract Management Agency,Aerospace & Defense,2026-08-16,2026-12-28,open,1769825200.93,2026-07-01,-46,Future-dated
+296,75A50120C00034,"MODERNATX, INC.",Department of Health and Human Services,Office of Assistant Secretary for Preparedness and Response,Healthcare & Medical,2026-04-30,2026-07-20,open,1754345480.45,2026-07-01,62,61-90 days
+300,N0001914C0037,GENERAL ATOMICS,Department of Defense,Department of the Navy,Aerospace & Defense,2026-12-10,2027-03-10,open,1726726793.30,2026-07-01,-162,Future-dated
+302,70B01C26F00000345,SOUTHWEST VALLEY CONSTRUCTORS CO,Department of Homeland Security,U.S. Customs and Border Protection,Logistics & Transportation,2026-08-17,2026-11-18,open,1720040000.00,2026-07-01,-47,Future-dated
+306,N0002414C5315,RAYTHEON COMPANY,Department of Defense,Department of the Navy,Aerospace & Defense,2026-11-09,2027-03-11,open,1671263971.83,2026-07-01,-131,Future-dated
+307,FA862616C2139,RTX CORPORATION,Department of Defense,Department of the Air Force,Aerospace & Defense,2026-08-08,2026-11-16,open,1651199673.57,2026-07-01,-38,Future-dated
+308,70B01C26F00000044,FISHER SAND & GRAVEL CO,Department of Homeland Security,U.S. Customs and Border Protection,Logistics & Transportation,2026-09-08,2026-12-13,open,1650754000.00,2026-07-01,-69,Future-dated
+310,N0001915C0114,LOCKHEED MARTIN CORPORATION,Department of Defense,Department of the Navy,Aerospace & Defense,2026-11-16,2027-01-03,open,1621042892.68,2026-07-01,-138,Future-dated
+312,NNH15CN76C,NORTHROP GRUMMAN SYSTEMS CORPORATION,National Aeronautics and Space Administration,National Aeronautics and Space Administration,Aerospace & Defense,2026-07-16,2026-10-20,open,1614792955.30,2026-07-01,-15,Future-dated
+313,W31P4Q23F0006,LOCKHEED MARTIN CORPORATION,Department of Defense,Department of the Army,Aerospace & Defense,2026-12-24,2027-02-11,open,1611793487.23,2026-07-01,-176,Future-dated
+315,80NM0021F0008,CALIFORNIA INSTITUTE OF TECHNOLOGY,National Aeronautics and Space Administration,National Aeronautics and Space Administration,Aerospace & Defense,2026-08-23,2027-02-12,open,1604322463.00,2026-07-01,-53,Future-dated
+316,0007-2,MASSACHUSETTS INSTITUTE OF TECHNOLOGY,Department of Defense,Department of the Air Force,Aerospace & Defense,2026-11-20,2027-04-14,open,1594101040.69,2026-07-01,-142,Future-dated
+317,89303321CEM000080,"BATTELLE SAVANNAH RIVER ALLIANCE, LLC",Department of Energy,Department of Energy,Energy & Utilities,2026-12-22,2027-04-29,open,1593068301.18,2026-07-01,-174,Future-dated
+320,HSCG2314CAPC002,"EASTERN SHIPBUILDING GROUP, INC.",Department of Homeland Security,U.S. Coast Guard,Construction & Facilities,2026-08-18,2026-11-09,open,1578692803.24,2026-07-01,-48,Future-dated
+323,HT940213C0008,PACMED CLINICS,Department of Defense,Defense Health Agency,Aerospace & Defense,2026-05-28,2026-07-16,open,1564810239.08,2026-07-01,34,31-60 days
+325,W90BRJ15C0004,"VINNELL ARABIA, LLC",Department of Defense,Department of the Army,Aerospace & Defense,2026-07-15,2026-10-04,open,1558808139.13,2026-07-01,-14,Future-dated
+332,N0001918C1060,THE BOEING COMPANY,Department of Defense,Defense Contract Management Agency,Aerospace & Defense,2026-06-28,2026-12-03,open,1518660771.00,2026-07-01,3,0-30 days
+335,HQ014711C0006,NORTHROP GRUMMAN SYSTEMS CORPORATION,Department of Defense,Missile Defense Agency,Aerospace & Defense,2026-08-07,2027-01-23,open,1510737189.71,2026-07-01,-37,Future-dated
+337,DTFAWA12C00064,PARSONS GOVERNMENT SERVICES INC.,Department of Transportation,Federal Aviation Administration,Logistics & Transportation,2026-06-12,2026-08-01,open,1499977355.14,2026-07-01,19,0-30 days
+338,80GSFC19C0063,PERATON INC.,National Aeronautics and Space Administration,National Aeronautics and Space Administration,Aerospace & Defense,2026-04-17,2026-09-21,open,1499608688.36,2026-07-01,75,61-90 days
+342,FA860926FB002,THE BOEING COMPANY,Department of Defense,Department of the Air Force,Aerospace & Defense,2026-07-24,2026-10-20,open,1484114000.00,2026-07-01,-23,Future-dated
+344,DOC003,T-REX SOLUTIONS LLC,Department of Commerce,U.S. Census Bureau,BPA Call - General,2026-07-01,2026-10-23,open,1480169956.14,2026-07-01,0,0-30 days
+346,N0002423C5403,RAM-SYSTEM GMBH,Department of Defense,Department of the Navy,Aerospace & Defense,2026-08-19,2026-11-20,open,1472521136.67,2026-07-01,-49,Future-dated
+347,80NM0018F0850,CALIFORNIA INSTITUTE OF TECHNOLOGY,National Aeronautics and Space Administration,National Aeronautics and Space Administration,Aerospace & Defense,2026-12-18,2027-04-05,open,1470526588.34,2026-07-01,-170,Future-dated
+348,FA870219F0001,MASSACHUSETTS INSTITUTE OF TECHNOLOGY,Department of Defense,Department of the Air Force,Aerospace & Defense,2026-11-16,2027-02-02,open,1469693798.10,2026-07-01,-138,Future-dated
+349,N0002416C2111,ELECTRIC BOAT CORPORATION,Department of Defense,Department of the Navy,Aerospace & Defense,2026-06-01,2026-07-23,open,1468509369.00,2026-07-01,30,0-30 days
+357,N0002423C2452,TEXTRON SYSTEMS CORP,Department of Defense,Department of the Navy,Aerospace & Defense,2026-05-04,2026-07-08,open,1436316386.00,2026-07-01,58,31-60 days
+358,47QFSA20F0057,SCIENCE APPLICATIONS INTERNATIONAL CORPORATION,General Services Administration,Federal Acquisition Service,Logistics & Transportation,2026-07-22,2026-11-23,open,1432945155.91,2026-07-01,-21,Future-dated
+359,HHSO100200900101C,SEQIRUS INC,Department of Health and Human Services,Office of Assistant Secretary for Preparedness and Response,Healthcare & Medical,2026-05-25,2026-08-07,open,1430622665.00,2026-07-01,37,31-60 days
+360,36C10B22N0051EHRM,"ORACLE HEALTH GOVERNMENT SERVICES, INC.",Department of Veterans Affairs,Department of Veterans Affairs,Healthcare & Medical,2026-11-30,2027-02-19,open,1424879474.43,2026-07-01,-152,Future-dated
+362,N0002420C5405,RAYTHEON COMPANY,Department of Defense,Defense Contract Management Agency,Aerospace & Defense,2026-06-02,2026-09-05,open,1418484083.60,2026-07-01,29,0-30 days
+363,N0002410C2118,ELECTRIC BOAT CORPORATION,Department of Defense,Department of the Navy,Aerospace & Defense,2026-07-29,2027-01-22,open,1418130936.00,2026-07-01,-28,Future-dated
+364,FA865622FA071,RAYTHEON COMPANY,Department of Defense,Department of the Air Force,Aerospace & Defense,2026-11-06,2027-02-28,open,1411745212.76,2026-07-01,-128,Future-dated
+365,N0002420C5519,NORTHROP GRUMMAN SYSTEMS CORPORATION,Department of Defense,Defense Contract Management Agency,Aerospace & Defense,2026-09-06,2026-12-04,open,1409895949.82,2026-07-01,-67,Future-dated
+369,FA863416C2653,THE BOEING COMPANY,Department of Defense,Department of the Air Force,Aerospace & Defense,2026-12-05,2027-03-03,open,1399773518.14,2026-07-01,-157,Future-dated
+372,HHSO100201600030C,EMERGENT PRODUCT DEVELOPMENT GAITHERSBURG INC.,Department of Health and Human Services,Office of Assistant Secretary for Preparedness and Response,Healthcare & Medical,2026-05-30,2026-10-05,open,1385742139.10,2026-07-01,32,31-60 days
+373,89303925FEM400064,"HANFORD TANK WASTE OPERATIONS & CLOSURE, LLC",Department of Energy,Department of Energy,Logistics & Transportation,2026-04-27,2026-09-28,open,1385702409.03,2026-07-01,65,61-90 days
+375,47QFCA21F0018,BOOZ ALLEN HAMILTON INC,General Services Administration,Federal Acquisition Service,Logistics & Transportation,2026-06-02,2026-11-08,open,1379603153.12,2026-07-01,29,0-30 days
+376,N0002419C2125,ELECTRIC BOAT CORPORATION,Department of Defense,Department of the Navy,Aerospace & Defense,2026-02-19,2026-08-01,open,1370352119.00,2026-07-01,132,91-180 days
+377,N0001921C0723,RAYTHEON COMPANY,Department of Defense,Department of the Navy,Aerospace & Defense,2026-09-30,2026-11-03,open,1368878887.00,2026-07-01,-91,Future-dated
+378,HT940213C0011,CHRISTUS HEALTH,Department of Defense,Defense Health Agency,Aerospace & Defense,2026-06-14,2026-11-02,open,1368144402.35,2026-07-01,17,0-30 days
+379,36C10B21N10070021,BOOZ ALLEN HAMILTON INC,Department of Veterans Affairs,Department of Veterans Affairs,Logistics & Transportation,2026-10-30,2027-01-04,open,1365285599.63,2026-07-01,-121,Future-dated
+384,HQ014716C0011,LOCKHEED MARTIN CORPORATION,Department of Defense,Missile Defense Agency,Aerospace & Defense,2026-09-27,2026-11-15,open,1350071468.22,2026-07-01,-88,Future-dated
+387,FA873017C0010,RAYTHEON COMPANY,Department of Defense,Department of the Air Force,Aerospace & Defense,2026-09-23,2026-12-20,open,1342453948.60,2026-07-01,-84,Future-dated
+391,N0001918C1068,RAYTHEON COMPANY,Department of Defense,Department of the Navy,Aerospace & Defense,2026-07-06,2026-10-13,open,1338242251.00,2026-07-01,-5,Future-dated
+394,HQ014712C0006,RAYTHEON COMPANY,Department of Defense,Missile Defense Agency,Aerospace & Defense,2026-05-27,2026-09-20,open,1327248619.90,2026-07-01,35,31-60 days
+395,70B01C26F00000385,SLS FEDERAL SERVICES LLC,Department of Homeland Security,U.S. Customs and Border Protection,Logistics & Transportation,2026-06-12,2026-08-23,open,1313227200.00,2026-07-01,19,0-30 days
+396,FA860918F0006,THE BOEING COMPANY,Department of Defense,Department of the Air Force,Aerospace & Defense,2026-08-18,2026-10-21,open,1305571332.00,2026-07-01,-48,Future-dated
+402,N0003023C0100,LOCKHEED MARTIN CORPORATION,Department of Defense,Defense Contract Management Agency,Aerospace & Defense,2026-04-04,2026-09-16,open,1285393895.00,2026-07-01,88,61-90 days
+403,FA248616C0002,"RELIANCE TEST & TECHNOLOGY, LLC",Department of Defense,Department of the Air Force,Aerospace & Defense,2026-09-19,2027-01-04,open,1283851515.80,2026-07-01,-80,Future-dated
+405,80NM0018F0616,CALIFORNIA INSTITUTE OF TECHNOLOGY,National Aeronautics and Space Administration,National Aeronautics and Space Administration,Aerospace & Defense,2026-06-18,2026-09-04,open,1283731662.01,2026-07-01,13,0-30 days
+411,0003,"AMENTUM SERVICES, INC.",Department of Defense,Department of the Army,Aerospace & Defense,2026-08-07,2026-09-15,open,1263404926.59,2026-07-01,-37,Future-dated
+415,W31P4Q23F0177,RAYTHEON/LOCKHEED MARTIN JAVELIN JV,Department of Defense,Department of the Army,Aerospace & Defense,2026-07-20,2026-11-19,open,1254528790.97,2026-07-01,-19,Future-dated
+416,N0003019C0100,LOCKHEED MARTIN CORPORATION,Department of Defense,Defense Contract Management Agency,Aerospace & Defense,2026-02-12,2026-07-26,open,1253498024.34,2026-07-01,139,91-180 days
+417,N0002419C2227,"AUSTAL USA, LLC",Department of Defense,Department of the Navy,Aerospace & Defense,2026-09-15,2026-11-08,open,1245592803.00,2026-07-01,-76,Future-dated
+419,FA862622C0002,GENERAL ELECTRIC COMPANY,Department of Defense,Defense Contract Management Agency,Aerospace & Defense,2026-06-03,2026-09-17,open,1239591515.75,2026-07-01,28,0-30 days
+423,70B01C25F00001112,FISHER SAND & GRAVEL CO,Department of Homeland Security,U.S. Customs and Border Protection,Logistics & Transportation,2026-06-12,2026-09-20,open,1225325000.00,2026-07-01,19,0-30 days
+428,HQ085321C0002,LOCKHEED MARTIN CORPORATION,Department of Defense,Missile Defense Agency,Aerospace & Defense,2026-04-25,2026-07-14,open,1218472659.10,2026-07-01,67,61-90 days
+430,N0003017C0100,LOCKHEED MARTIN CORP,Department of Defense,Department of the Navy,Aerospace & Defense,2026-05-04,2026-07-10,open,1216428405.00,2026-07-01,58,31-60 days
+433,N0003025C0100,LOCKHEED MARTIN CORPORATION,Department of Defense,Department of the Navy,Aerospace & Defense,2026-03-15,2026-08-30,open,1205415035.00,2026-07-01,108,91-180 days
+436,36C24026K1007,MCKESSON CORPORATION,Department of Veterans Affairs,Department of Veterans Affairs,Logistics & Transportation,2026-11-13,2027-02-06,open,1191348080.87,2026-07-01,-135,Future-dated
+437,36C24026K1001,MCKESSON CORPORATION,Department of Veterans Affairs,Department of Veterans Affairs,Logistics & Transportation,2026-09-02,2027-01-28,open,1184200532.33,2026-07-01,-63,Future-dated
+438,N0002407C2102,"BECHTEL PLANT MACHINERY, INC.",Department of Defense,Department of the Navy,Aerospace & Defense,2026-05-28,2026-08-27,open,1179194023.00,2026-07-01,34,31-60 days
+446,47QFCA22F0047,BOOZ ALLEN HAMILTON INC,General Services Administration,Federal Acquisition Service,Logistics & Transportation,2026-08-25,2027-01-17,open,1161919267.45,2026-07-01,-55,Future-dated
+447,FA852624F0002,THE BOEING COMPANY,Department of Defense,Department of the Air Force,Aerospace & Defense,2026-10-11,2027-01-12,open,1159306466.77,2026-07-01,-102,Future-dated
+450,W56HZV12C0344,HONEYWELL INTERNATIONAL INC.,Department of Defense,Department of the Army,Aerospace & Defense,2026-12-08,2027-01-29,open,1155380301.81,2026-07-01,-160,Future-dated
+451,HQ085821C0015,PARSONS GOVERNMENT SERVICES INC.,Department of Defense,Missile Defense Agency,Aerospace & Defense,2026-10-23,2027-01-07,open,1153574982.73,2026-07-01,-114,Future-dated
+459,FA812424F0001,RTX CORPORATION,Department of Defense,Department of the Air Force,Aerospace & Defense,2026-08-16,2026-12-16,open,1127037480.95,2026-07-01,-46,Future-dated
+461,70Z02326C93210001,RAUMA MARINE CONSTRUCTIONS OY,Department of Homeland Security,U.S. Coast Guard,Construction & Facilities,2026-06-11,2026-09-24,open,1122648775.26,2026-07-01,20,0-30 days
+462,FA861518C6058,LOCKHEED MARTIN CORPORATION,Department of Defense,Department of the Air Force,Aerospace & Defense,2026-06-22,2026-08-17,open,1118215073.06,2026-07-01,9,0-30 days
+463,DEAC0207CH11358,IOWA STATE UNIVERSITY OF SCIENCE AND TECHNOLOGY,Department of Energy,Department of Energy,Energy & Utilities,2026-04-07,2026-07-12,open,1118127580.26,2026-07-01,85,61-90 days
+467,W58RGZ17C0010,AIRBUS US SPACE & DEFENSE INC,Department of Defense,Defense Contract Management Agency,Aerospace & Defense,2026-04-29,2026-09-28,open,1110959062.62,2026-07-01,63,61-90 days
+473,N0002423C5123,LOCKHEED MARTIN CORPORATION,Department of Defense,Department of the Navy,Aerospace & Defense,2026-11-22,2027-01-30,open,1106442081.18,2026-07-01,-144,Future-dated
+474,36C10G26K0209,"OPTUM PUBLIC SECTOR SOLUTIONS, INC.",Department of Veterans Affairs,Department of Veterans Affairs,Logistics & Transportation,2026-12-05,2027-01-15,open,1102850655.28,2026-07-01,-157,Future-dated
+475,GSFC0199711DNAS597271,THE JOHNS HOPKINS UNIVERSITY APPLIED PHYSICS LABORATORY LLC,National Aeronautics and Space Administration,National Aeronautics and Space Administration,Aerospace & Defense,2026-06-15,2026-10-09,open,1102140609.74,2026-07-01,16,0-30 days
+480,FA812425F0001,RTX CORPORATION,Department of Defense,Department of the Air Force,Aerospace & Defense,2026-07-26,2026-12-08,open,1078914542.46,2026-07-01,-25,Future-dated
+488,47QFCA20F0013,"SMARTRONIX, LLC",General Services Administration,Federal Acquisition Service,Logistics & Transportation,2026-06-18,2026-08-15,open,1064544154.89,2026-07-01,13,0-30 days
+491,36C10G26K0213,TRIWEST HEALTHCARE ALLIANCE CORP,Department of Veterans Affairs,Department of Veterans Affairs,Healthcare & Medical,2026-06-10,2026-07-30,open,1062977660.85,2026-07-01,21,0-30 days
+496,N0002419C2112,"BECHTEL PLANT MACHINERY, INC.",Department of Defense,Department of the Navy,Aerospace & Defense,2026-09-29,2027-02-26,open,1051399060.00,2026-07-01,-90,Future-dated

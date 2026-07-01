@@ -1,0 +1,10 @@
+category_id,category_code,category_name,category_group,total_purchase_orders,total_suppliers,total_spend,average_po_amount
+1,CAT-AEROSPACE-DEFENSE,Aerospace & Defense,"Aerospace, defense, weapons systems, aircraft, missiles, and military platforms",388,91,1583810791397.94,4081986575.77
+4,CAT-ENERGY-UTILITIES,Energy & Utilities,"Energy, electricity, fuel, utilities, and environmental services",38,37,584917984173.66,15392578530.89
+9,CAT-LOGISTICS-TRANSPORTATION,Logistics & Transportation,"Transportation, freight, logistics, warehousing, and distribution",44,20,70773821791.99,1608495949.82
+3,CAT-PROFESSIONAL-SERVICES,Professional Services,"Consulting, program management, technical assistance, and advisory services",2,2,50662890921.61,25331445460.81
+7,CAT-HEALTHCARE-MEDICAL,Healthcare & Medical,"Medical supplies, healthcare services, pharmaceuticals, and clinical support",10,9,17890927664.80,1789092766.48
+6,CAT-DEFINITIVE-CONTRACT-GENERAL,Definitive Contract - General,General definitive contracts without specific category detail,10,8,16428798512.10,1642879851.21
+2,CAT-CONSTRUCTION-FACILITIES,Construction & Facilities,"Construction, renovation, maintenance, and facility services",4,4,5431667561.92,1357916890.48
+8,CAT-IT,Information Technology,"Software, cloud, cybersecurity, telecommunications, and IT services",2,2,3136237577.49,1568118788.75
+5,CAT-BPA-CALL-GENERAL,BPA Call - General,General blanket purchase agreement calls,2,2,2740740467.08,1370370233.54
