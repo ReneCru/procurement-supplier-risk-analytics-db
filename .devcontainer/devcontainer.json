@@ -1,0 +1,19 @@
+{
+  "name": "Procurement Supplier Risk Analytics DB",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+  "forwardPorts": [5432],
+  "postCreateCommand": "pip install -r requirements.txt",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-ossdata.vscode-postgresql",
+        "mtxr.sqltools",
+        "mtxr.sqltools-driver-pg",
+        "streetsidesoftware.code-spell-checker"
+      ]
+    }
+  }
+}
