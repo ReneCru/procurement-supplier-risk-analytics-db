@@ -1,0 +1,162 @@
+Pager usage is off.
+KPI 1: Top Suppliers by Total Spend
+                       supplier_name                        | total_purchase_orders |   total_spend   | average_po_amount | first_po_date | latest_po_date 
+------------------------------------------------------------+-----------------------+-----------------+-------------------+---------------+----------------
+ LOCKHEED MARTIN CORPORATION                                |                    76 | 330883978935.99 |     4353736564.95 | 2025-01-15    | 2026-12-29
+ THE BOEING COMPANY                                         |                    43 | 202720882467.25 |     4714439127.15 | 2025-01-14    | 2026-12-08
+ LOCKHEED MARTIN CORP                                       |                    22 | 138803456206.08 |     6309248009.37 | 2025-01-22    | 2026-10-31
+ ELECTRIC BOAT CORPORATION                                  |                    12 | 129474375067.72 |    10789531255.64 | 2025-05-25    | 2026-12-06
+ HUMANA GOVERNMENT BUSINESS INC                             |                     3 |  80022713220.99 |    26674237740.33 | 2025-04-12    | 2026-11-10
+ RAYTHEON COMPANY                                           |                    35 |  73411095345.49 |     2097459867.01 | 2025-01-27    | 2026-12-11
+ HUNTINGTON INGALLS INC                                     |                    14 |  53720938766.68 |     3837209911.91 | 2025-01-22    | 2026-09-09
+ NORTHROP GRUMMAN SYSTEMS CORPORATION                       |                    16 |  49264759365.75 |     3079047460.36 | 2025-02-02    | 2026-09-06
+ HEALTH NET FEDERAL SERVICES, LLC                           |                     2 |  42908108721.42 |    21454054360.71 | 2026-07-29    | 2026-11-19
+ NATIONAL TECHNOLOGY & ENGINEERING SOLUTIONS OF SANDIA, LLC |                     1 |  42370311400.75 |    42370311400.75 | 2026-12-16    | 2026-12-16
+(10 rows)
+
+KPI 2: Suppliers with Most Late Deliveries
+            supplier_name             | total_deliveries | delivered_count | late_delivery_count | pending_delivery_count | late_delivery_rate_pct | average_late_days | max_delay_days 
+--------------------------------------+------------------+-----------------+---------------------+------------------------+------------------------+-------------------+----------------
+ LOCKHEED MARTIN CORPORATION          |              308 |             169 |                  82 |                     57 |                  26.62 |             22.27 |             45
+ THE BOEING COMPANY                   |              172 |              88 |                  38 |                     46 |                  22.09 |             19.71 |             45
+ RAYTHEON COMPANY                     |              139 |              79 |                  32 |                     28 |                  23.02 |             24.06 |             44
+ LOCKHEED MARTIN CORP                 |               83 |              45 |                  20 |                     18 |                  24.10 |             29.05 |             45
+ NORTHROP GRUMMAN SYSTEMS CORPORATION |               64 |              33 |                  18 |                     13 |                  28.13 |             24.28 |             45
+ HUNTINGTON INGALLS INC               |               50 |              29 |                  14 |                      7 |                  28.00 |             27.00 |             37
+ KBR SERVICES, LLC                    |               28 |              12 |                  12 |                      4 |                  42.86 |             23.42 |             44
+ SIKORSKY AIRCRAFT CORPORATION        |               40 |              26 |                  11 |                      3 |                  27.50 |             24.18 |             41
+ ELECTRIC BOAT CORPORATION            |               47 |              23 |                  11 |                     13 |                  23.40 |             28.82 |             44
+ HUNTINGTON INGALLS INCORPORATED      |               37 |              24 |                  10 |                      3 |                  27.03 |             24.30 |             41
+(10 rows)
+
+KPI 3: Open Purchase Orders by Aging Bucket
+ aging_bucket | open_po_count |  open_po_value  | average_open_po_value 
+--------------+---------------+-----------------+-----------------------
+ Future-dated |           113 | 645588456798.65 |         5713172184.06
+ 31-60 days   |            26 | 173703278133.10 |         6680895312.81
+ 0-30 days    |            29 |  90740313029.39 |         3128976311.36
+ 91-180 days  |            12 |  62231757039.50 |         5185979753.29
+ 61-90 days   |            13 |  48853849352.44 |         3757988411.73
+(5 rows)
+
+KPI 4: Suppliers with Expired or Missing Compliance Documents
+                    supplier_name                    | total_documents | valid_documents | expired_documents | missing_documents | pending_review_documents | next_expiration_date | compliance_risk_status 
+-----------------------------------------------------+-----------------+-----------------+-------------------+-------------------+--------------------------+----------------------+------------------------
+ THE AEROSPACE CORPORATION                           |               6 |               1 |                 3 |                 1 |                        1 | 2025-07-22           | Requires Review
+ AEROJET ROCKETDYNE OF DE, INC                       |               6 |               2 |                 3 |                 1 |                        0 | 2025-12-13           | Requires Review
+ ELECTRIC BOAT CORPORATION                           |               6 |               2 |                 2 |                 2 |                        0 | 2025-07-07           | Requires Review
+ REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE        |               6 |               2 |                 2 |                 1 |                        1 | 2025-08-19           | Requires Review
+ SPACE EXPLORATION TECHNOLOGIES CORP.                |               6 |               2 |                 2 |                 1 |                        1 | 2026-01-12           | Requires Review
+ L3HARRIS TECHNOLOGIES, INC.                         |               6 |               3 |                 2 |                 1 |                        0 | 2025-10-09           | Requires Review
+ VERTEX AEROSPACE LLC                                |               6 |               3 |                 2 |                 1 |                        0 | 2025-12-05           | Requires Review
+ THE JOHNS HOPKINS MEDICAL SERVICES CORPORATION      |               6 |               3 |                 2 |                 1 |                        0 | 2025-08-26           | Requires Review
+ HUNTINGTON INGALLS INC                              |               6 |               3 |                 2 |                 1 |                        0 | 2025-10-31           | Requires Review
+ BAE SYSTEMS TECHNOLOGY SOLUTIONS & SERVICES INC.    |               6 |               3 |                 2 |                 1 |                        0 | 2025-10-27           | Requires Review
+ SAVANNAH RIVER NUCLEAR SOLUTIONS LLC                |               6 |               2 |                 2 |                 0 |                        2 | 2025-09-03           | Requires Review
+ KBR WYLE SERVICES, LLC                              |               6 |               3 |                 2 |                 0 |                        1 | 2026-01-30           | Requires Review
+ LAWRENCE LIVERMORE NATIONAL SECURITY, LLC           |               6 |               3 |                 2 |                 0 |                        1 | 2025-08-30           | Requires Review
+ BATTELLE ENERGY ALLIANCE, LLC                       |               6 |               3 |                 2 |                 0 |                        1 | 2025-12-03           | Requires Review
+ SPENCER CONSTRUCTION LLC                            |               6 |               3 |                 2 |                 0 |                        1 | 2026-04-27           | Requires Review
+ DELL MARKETING L.P.                                 |               6 |               4 |                 2 |                 0 |                        0 | 2025-08-05           | Requires Review
+ HONEYWELL FEDERAL MANUFACTURING & TECHNOLOGIES, LLC |               6 |               4 |                 2 |                 0 |                        0 | 2026-01-17           | Requires Review
+ CALIFORNIA INSTITUTE OF TECHNOLOGY                  |               6 |               4 |                 2 |                 0 |                        0 | 2025-08-05           | Requires Review
+ ACCENTURE FEDERAL SERVICES LLC                      |               6 |               4 |                 2 |                 0 |                        0 | 2025-07-23           | Requires Review
+ RAYTHEON/LOCKHEED MARTIN JAVELIN JV                 |               6 |               4 |                 2 |                 0 |                        0 | 2025-07-12           | Requires Review
+(20 rows)
+
+KPI 5: Spend by Category
+         category_name         |                                 category_group                                  | total_purchase_orders | total_suppliers |   total_spend    | average_po_amount 
+-------------------------------+---------------------------------------------------------------------------------+-----------------------+-----------------+------------------+-------------------
+ Aerospace & Defense           | Aerospace, defense, weapons systems, aircraft, missiles, and military platforms |                   388 |              91 | 1583810791397.94 |     4081986575.77
+ Energy & Utilities            | Energy, electricity, fuel, utilities, and environmental services                |                    38 |              37 |  584917984173.66 |    15392578530.89
+ Logistics & Transportation    | Transportation, freight, logistics, warehousing, and distribution               |                    44 |              20 |   70773821791.99 |     1608495949.82
+ Professional Services         | Consulting, program management, technical assistance, and advisory services     |                     2 |               2 |   50662890921.61 |    25331445460.81
+ Healthcare & Medical          | Medical supplies, healthcare services, pharmaceuticals, and clinical support    |                    10 |               9 |   17890927664.80 |     1789092766.48
+ Definitive Contract - General | General definitive contracts without specific category detail                   |                    10 |               8 |   16428798512.10 |     1642879851.21
+ Construction & Facilities     | Construction, renovation, maintenance, and facility services                    |                     4 |               4 |    5431667561.92 |     1357916890.48
+ Information Technology        | Software, cloud, cybersecurity, telecommunications, and IT services             |                     2 |               2 |    3136237577.49 |     1568118788.75
+ BPA Call - General            | General blanket purchase agreement calls                                        |                     2 |               2 |    2740740467.08 |     1370370233.54
+(9 rows)
+
+KPI 6: Monthly Purchasing Trend
+ purchase_month | total_purchase_orders | total_suppliers | total_categories |   total_spend   | average_po_amount 
+----------------+-----------------------+-----------------+------------------+-----------------+-------------------
+ 2025-01-01     |                    25 |              23 |                3 | 202426453492.63 |     8097058139.71
+ 2025-02-01     |                    17 |              17 |                3 |  76878509249.52 |     4522265249.97
+ 2025-03-01     |                    20 |              15 |                4 |  48759996838.64 |     2437999841.93
+ 2025-04-01     |                    15 |              12 |                3 |  60958971563.14 |     4063931437.54
+ 2025-05-01     |                    20 |              18 |                2 |  65467412045.88 |     3273370602.29
+ 2025-06-01     |                    24 |              13 |                5 |  59639684635.55 |     2484986859.81
+ 2025-07-01     |                    17 |              12 |                3 | 102012808883.96 |     6000753463.76
+ 2025-08-01     |                    20 |              16 |                5 |  63984185715.68 |     3199209285.78
+ 2025-09-01     |                    22 |              15 |                4 | 105614792320.42 |     4800672378.20
+ 2025-10-01     |                    29 |              22 |                5 |  98142820547.98 |     3384235191.31
+ 2025-11-01     |                    18 |              14 |                4 |  63189963991.48 |     3510553555.08
+ 2025-12-01     |                    19 |              13 |                3 |  96730550260.28 |     5091081592.65
+ 2026-01-01     |                    24 |              17 |                4 |  99610244622.11 |     4150426859.25
+ 2026-02-01     |                    20 |              12 |                2 |  58464235746.65 |     2923211787.33
+ 2026-03-01     |                    20 |              15 |                5 | 144141917207.99 |     7207095860.40
+ 2026-04-01     |                    21 |              18 |                4 |  68652495485.86 |     3269166451.71
+ 2026-05-01     |                    27 |              22 |                3 | 184790047632.78 |     6844075838.25
+ 2026-06-01     |                    27 |              23 |                6 |  78687938301.71 |     2914368085.25
+ 2026-07-01     |                    18 |              16 |                4 | 113941596749.74 |     6330088708.32
+ 2026-08-01     |                    23 |              15 |                4 |  91316525400.94 |     3970283713.08
+ 2026-09-01     |                    22 |              15 |                4 |  75897003790.67 |     3449863808.67
+ 2026-10-01     |                    13 |              10 |                2 |  47890659593.12 |     3683896891.78
+ 2026-11-01     |                    20 |              14 |                4 | 176976803994.35 |     8848840199.72
+ 2026-12-01     |                    19 |              15 |                4 | 151618241997.51 |     7979907473.55
+(24 rows)
+
+KPI 7: Supplier Risk Score
+                supplier_name                 | total_purchase_orders |   total_spend   | total_deliveries | late_deliveries | late_delivery_rate_pct | expired_documents | missing_documents | overdue_invoices | spend_exposure_score | delivery_risk_score | compliance_risk_score | invoice_risk_score | supplier_risk_score | risk_level 
+----------------------------------------------+-----------------------+-----------------+------------------+-----------------+------------------------+-------------------+-------------------+------------------+----------------------+---------------------+-----------------------+--------------------+---------------------+------------
+ LOCKHEED MARTIN CORPORATION                  |                    76 | 330883978935.99 |              308 |              82 |                  26.62 |                 2 |                 0 |                2 |               100.00 |               26.62 |                 33.33 |               2.63 |               54.92 | Medium
+ ELECTRIC BOAT CORPORATION                    |                    12 | 129474375067.72 |               47 |              11 |                  23.40 |                 2 |                 2 |                1 |                39.13 |               23.40 |                 75.00 |               8.33 |               38.51 | Low
+ THE BOEING COMPANY                           |                    43 | 202720882467.25 |              172 |              38 |                  22.09 |                 0 |                 1 |                0 |                61.27 |               22.09 |                 20.83 |               0.00 |               35.30 | Low
+ LOCKHEED MARTIN CORP                         |                    22 | 138803456206.08 |               83 |              20 |                  24.10 |                 0 |                 2 |                1 |                41.95 |               24.10 |                 41.67 |               4.55 |               32.80 | Low
+ DELL FEDERAL SYSTEMS L.P                     |                     1 |   1590136261.87 |                3 |               3 |                 100.00 |                 0 |                 0 |                0 |                 0.48 |              100.00 |                  0.00 |               0.00 |               30.19 | Low
+ TEXTRON SYSTEMS CORPORATION                  |                     1 |   1551565403.77 |                3 |               2 |                  66.67 |                 1 |                 1 |                0 |                 0.47 |               66.67 |                 45.83 |               0.00 |               29.35 | Low
+ BECHTEL PARSONS BLUE GRASS, A JOINT VENTURE  |                     1 |   5030576178.60 |                5 |               2 |                  40.00 |                 2 |                 0 |                1 |                 1.52 |               40.00 |                 33.33 |             100.00 |               29.27 | Low
+ UNITED CLEANUP OAK RIDGE LLC                 |                     1 |   2409248908.00 |                5 |               3 |                  60.00 |                 1 |                 1 |                0 |                 0.73 |               60.00 |                 54.17 |               0.00 |               29.12 | Low
+ DRAGADOS/HAWAIIAN DREDGING/ORION JV          |                     1 |   3071962135.15 |                4 |               2 |                  50.00 |                 1 |                 2 |                0 |                 0.93 |               50.00 |                 66.67 |               0.00 |               28.70 | Low
+ REGENTS OF THE UNIVERSITY OF CALIFORNIA, THE |                     1 |  35295925219.18 |                3 |               1 |                  33.33 |                 2 |                 1 |                0 |                10.67 |               33.33 |                 62.50 |               0.00 |               26.77 | Low
+ SPACE EXPLORATION TECHNOLOGIES CORP.         |                     2 |   6073919278.42 |                7 |               3 |                  42.86 |                 2 |                 1 |                0 |                 1.84 |               42.86 |                 62.50 |               0.00 |               26.09 | Low
+ HONEYWELL INTERNATIONAL INC.                 |                     1 |   1155380301.81 |                4 |               3 |                  75.00 |                 0 |                 0 |                0 |                 0.35 |               75.00 |                 16.67 |               0.00 |               25.97 | Low
+ HUNTINGTON INGALLS INC                       |                    14 |  53720938766.68 |               50 |              14 |                  28.00 |                 2 |                 1 |                0 |                16.24 |               28.00 |                 54.17 |               0.00 |               25.73 | Low
+ NUCLEAR WASTE PARTNERSHIP LLC                |                     1 |   2823678826.78 |                3 |               2 |                  66.67 |                 1 |                 0 |                0 |                 0.85 |               66.67 |                 25.00 |               0.00 |               25.34 | Low
+ LEIDOS BIOMEDICAL RESEARCH INC               |                     1 |   1775380496.13 |                3 |               1 |                  33.33 |                 1 |                 0 |                1 |                 0.54 |               33.33 |                 25.00 |             100.00 |               25.21 | Low
+(15 rows)
+
+KPI 8: Overdue Invoice Exposure
+                supplier_name                | total_invoices | overdue_invoices | overdue_invoice_value | total_invoice_value 
+---------------------------------------------+----------------+------------------+-----------------------+---------------------
+ NORTHROP GRUMMAN SYSTEMS CORPORATION        |             16 |                1 |        10009419769.13 |      49264759365.75
+ BECHTEL PARSONS BLUE GRASS, A JOINT VENTURE |              1 |                1 |         5030576178.60 |       5030576178.60
+ ELECTRIC BOAT CORPORATION                   |             12 |                1 |         4315002657.50 |     129474375067.72
+ LOCKHEED MARTIN CORPORATION                 |             76 |                2 |         2458913059.34 |     330883978935.99
+ FLUOR FEDERAL PETROLEUM OPERATIONS, LLC     |              1 |                1 |         1996329703.46 |       1996329703.46
+ LEIDOS BIOMEDICAL RESEARCH INC              |              1 |                1 |         1775380496.13 |       1775380496.13
+ LOCKHEED MARTIN CORP                        |             22 |                1 |         1216428405.00 |     138803456206.08
+(7 rows)
+
+KPI 9: Buyer Spend Summary
+                  buyer_name                   |               buyer_department                | total_purchase_orders | total_suppliers |   total_spend   | average_po_amount 
+-----------------------------------------------+-----------------------------------------------+-----------------------+-----------------+-----------------+-------------------
+ Department of Energy                          | Department of Energy                          |                    45 |              44 | 645005796128.14 |    14333462136.18
+ Department of Defense                         | Department of the Navy                        |                   125 |              23 | 579387248105.96 |     4635097984.85
+ Department of Defense                         | Department of the Army                        |                    78 |              31 | 244973275971.14 |     3140683025.27
+ Department of Defense                         | Defense Contract Management Agency            |                    53 |              15 | 226729178236.59 |     4277909023.33
+ Department of Defense                         | Department of the Air Force                   |                    68 |              19 | 217182594163.90 |     3193861678.88
+ Department of Defense                         | Defense Health Agency                         |                    16 |              11 | 162718644692.36 |    10169915293.27
+ National Aeronautics and Space Administration | National Aeronautics and Space Administration |                    31 |              18 | 105153139231.20 |     3392036749.39
+ Department of Defense                         | Missile Defense Agency                        |                    17 |               6 |  47666710996.79 |     2803924176.28
+ Department of Veterans Affairs                | Department of Veterans Affairs                |                    20 |               7 |  24138146920.26 |     1206907346.01
+ Department of Homeland Security               | U.S. Customs and Border Protection            |                    12 |               7 |  19812734991.89 |     1651061249.32
+(10 rows)
+
+KPI 10: Executive Procurement Summary
+ total_suppliers | total_buyers | total_categories | total_purchase_orders | total_po_lines | total_deliveries | total_invoices | total_compliance_documents |  total_po_spend  
+-----------------+--------------+------------------+-----------------------+----------------+------------------+----------------+----------------------------+------------------
+             165 |           24 |                9 |                   500 |           1982 |             1982 |            500 |                        990 | 2335793860068.59
+(1 row)
+

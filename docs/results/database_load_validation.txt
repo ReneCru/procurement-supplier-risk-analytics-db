@@ -1,0 +1,12 @@
+      table_name      | row_count 
+----------------------+-----------
+ buyers               |        24
+ categories           |         9
+ compliance_documents |       990
+ deliveries           |      1982
+ invoices             |       500
+ purchase_order_lines |      1982
+ purchase_orders      |       500
+ suppliers            |       165
+(8 rows)
+
