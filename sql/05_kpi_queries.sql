@@ -210,27 +210,12 @@ LIMIT 10;
 \echo 'KPI 10: Executive Procurement Summary'
 
 SELECT
-    COUNT(DISTINCT s.supplier_id) AS total_suppliers,
-    COUNT(DISTINCT b.buyer_id) AS total_buyers,
-    COUNT(DISTINCT c.category_id) AS total_categories,
-    COUNT(DISTINCT po.po_id) AS total_purchase_orders,
-    COUNT(DISTINCT pol.po_line_id) AS total_po_lines,
-    COUNT(DISTINCT d.delivery_id) AS total_deliveries,
-    COUNT(DISTINCT i.invoice_id) AS total_invoices,
-    COUNT(DISTINCT cd.document_id) AS total_compliance_documents,
-    ROUND(SUM(DISTINCT po.total_amount), 2) AS total_po_spend
-FROM purchase_orders po
-JOIN suppliers s
-    ON s.supplier_id = po.supplier_id
-JOIN buyers b
-    ON b.buyer_id = po.buyer_id
-LEFT JOIN categories c
-    ON c.category_id = po.category_id
-LEFT JOIN purchase_order_lines pol
-    ON pol.po_id = po.po_id
-LEFT JOIN deliveries d
-    ON d.po_line_id = pol.po_line_id
-LEFT JOIN invoices i
-    ON i.po_id = po.po_id
-LEFT JOIN compliance_documents cd
-    ON cd.supplier_id = s.supplier_id;
+    (SELECT COUNT(*) FROM suppliers) AS total_suppliers,
+    (SELECT COUNT(*) FROM buyers) AS total_buyers,
+    (SELECT COUNT(*) FROM categories) AS total_categories,
+    (SELECT COUNT(*) FROM purchase_orders) AS total_purchase_orders,
+    (SELECT COUNT(*) FROM purchase_order_lines) AS total_po_lines,
+    (SELECT COUNT(*) FROM deliveries) AS total_deliveries,
+    (SELECT COUNT(*) FROM invoices) AS total_invoices,
+    (SELECT COUNT(*) FROM compliance_documents) AS total_compliance_documents,
+    (SELECT ROUND(SUM(total_amount), 2) FROM purchase_orders) AS total_po_spend;
