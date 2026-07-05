@@ -92,6 +92,26 @@ El proyecto también incluye un reporte analítico en Excel generado a partir de
 
 El archivo Excel incluye pestañas para supplier risk, supplier spend, spend by category, monthly trends, late delivery performance, open PO aging y compliance status.
 
+## Dashboard en Power BI
+
+Este proyecto incluye un dashboard ejecutivo en Power BI construido a partir de los archivos CSV exportados desde las vistas SQL.
+
+El dashboard resume:
+
+- Score de riesgo de proveedores
+- Gasto por categoría
+- Tendencia mensual de compras
+- Ranking de proveedores por riesgo
+- KPIs ejecutivos de procurement
+
+Archivo del dashboard:
+
+[Descargar Dashboard Power BI](powerbi/procurement_supplier_risk_dashboard.pbix)
+
+Vista previa:
+
+![Dashboard Ejecutivo](powerbi/screenshots/executive_summary_dashboard.png)
+
 ## Consultas KPI
 
 El proyecto incluye consultas para:
