@@ -75,6 +75,26 @@ The project also includes an Excel analytics report generated from dashboard-rea
 
 The Excel file includes multiple sheets for supplier risk, supplier spend, spend by category, monthly trends, late delivery performance, open PO aging, and compliance status.
 
+## Power BI Dashboard
+
+This project includes a Power BI executive summary dashboard built from the SQL dashboard export files.
+
+The dashboard summarizes:
+
+- Supplier risk score
+- Spend by category
+- Monthly purchasing trend
+- Top supplier risk ranking
+- Executive procurement KPIs
+
+Dashboard file:
+
+[Download Power BI Dashboard](powerbi/procurement_supplier_risk_dashboard.pbix)
+
+Preview:
+
+![Executive Summary Dashboard](powerbi/screenshots/executive_summary_dashboard.png)
+
 ## KPI Queries
 
 The project includes final KPI queries for:
