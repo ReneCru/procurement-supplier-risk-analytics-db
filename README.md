@@ -178,3 +178,11 @@ Designed a PostgreSQL relational database using public procurement data to analy
 ## Interview Talking Point
 
 This project demonstrates the ability to design a relational database, transform public procurement data into a business model, generate realistic synthetic operational data, enforce data quality through constraints, optimize analytical queries with indexes, and build procurement KPIs that support supplier risk analysis.
+
+## Usage Restriction
+
+This repository is a public portfolio demonstration.
+
+Commercial use, resale, consulting implementation, client delivery, SaaS deployment, redistribution, or use in paid training materials is not permitted without explicit written authorization from the repository owner.
+
+See the LICENSE and NOTICE.md files for details.
